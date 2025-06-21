@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const BACKEND_URL = "https://neomart-backend-2.onrender.com";
+const BACKEND_URL = "http://localhost:3001";
 
 const Login = () => {
   const [form, setForm] = useState({ username: "", password: "" });
